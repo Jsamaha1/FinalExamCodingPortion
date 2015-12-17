@@ -2,15 +2,6 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
 <hibernate-mapping>
     <class name="domain.RateDomainModel" table="TBLRATE">
-
-		<id name="RATEID" type="Integer">
-			<column name="RATEID" length="40" />
-		</id>
-		
-		<id name="MINCREDITSCORE" type = "Integer">
-		    <column name="MINCREDITSCORE" length = "40" />
-		</id>
-		
 		<id name="INTERESTRATE" type = "Double">
 		    <column name = "INTERESTRATE" length = "40" />
 		</id> 
